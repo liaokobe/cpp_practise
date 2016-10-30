@@ -33,4 +33,5 @@ int _tmain(int argc, _TCHAR* argv[])
     a.Fun();
 
     system("pause");
+    return 0;
 }
