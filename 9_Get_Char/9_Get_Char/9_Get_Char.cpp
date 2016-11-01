@@ -9,6 +9,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
     int i = 0;
     char c = 0;
+    char temp = 0;
 
     while (1)
     {
@@ -17,7 +18,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
         if(c != '\n')
         {
-            char temp = getchar();
+           temp = getchar();
         }
 
         if(c == 'q' || c == 'Q')
