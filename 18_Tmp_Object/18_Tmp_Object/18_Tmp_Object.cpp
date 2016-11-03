@@ -8,10 +8,10 @@ using namespace std;
 class B
 {
 public:
-    B(){ cout<<"B()"<<endl;}
-    ~B(){ cout<<"~B()"<<endl;}
-    B(B&){cout<<"B(B&)"<<endl;}
-    B(int i){ cout<<"B(int i)"<<endl;}
+    B(){ cout<<"B() "<<this<<endl;}
+    ~B(){ cout<<"~B() "<<this<<endl;}
+    B(B&){cout<<"B(B&) "<<this<<endl;}
+    B(int i){ cout<<"B(int i) "<<this<<endl;}
 };
 
 B Play(B b)
