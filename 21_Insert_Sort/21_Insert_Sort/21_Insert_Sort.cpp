@@ -10,7 +10,7 @@ void PrintArray(int a[], int nLen)
 {
     for(int i = 0; i < nLen; ++i)
     {
-        cout<<i<<" ";
+        cout<<a[i]<<" ";
     }
 
     cout<<endl;
